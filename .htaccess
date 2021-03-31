@@ -1,0 +1,30 @@
+# BEGIN Expires Headers
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType css/bootstrap.css "access plus 1 month"
+ExpiresByType style.css "access plus 1 month"
+ExpiresByType css/fontawesome.css "access plus 1 month"
+ExpiresByType css/et-line.css "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType js/bloc.min.js "access plus 1 month"
+ExpiresByType js/formHandler.min.js "access plus 1 month"
+ExpiresByType js/bootstrap.min.js "access plus 1 month"
+ExpiresByType js/gmaps.min.js "access plus month"
+ExpiresByType js/jqBootstrapValidation.min.js "access plus 1 month"
+ExpiresByType js/jquery.touchSwipe.min.js "access plus month"
+ExpiresByType js/jquery-2.1.0.min.js "access plus 1 month"
+ExpiresByType img/la-chouette-agence.png "access plus 1 month"
+ExpiresByType img/citation.png "access plus 1 month"
+ExpiresByType img/title.png "access plus 1 month"
+ExpiresByType img/title2.png "access plus 1 month"
+ExpiresByType img/logo.png "access plus 1 month"
+ExpiresByType img/1.jpg "access plus 1 month"
+ExpiresByType img/2.jpg "access plus 1 month"
+ExpiresByType img/3.jpg "access plus 1 month"
+ExpiresByType img/4.jpg "access plus 1 month"
+ExpiresByType img/texture-paper.png "access plus 1 month"
+ExpiresByType img/la-chouette-agence-banniere.jpg "access plus 1 month"
+ExpiresByType img/image-de-presentation.jpg "access plus 1 month "
+ExpiresDefault "access plus 2 days"
+</IfModule>
+# END Expires Headers
