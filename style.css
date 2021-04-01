@@ -97,6 +97,7 @@ a:hover {
 
 .text-center{
     font-size: 1em;
+    text-align: center;
 }
 
 .texture-paper::before {
@@ -672,7 +673,8 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 50px;
+    text-align: center;
 }
 
 .hero-bloc-text-sub {
@@ -694,8 +696,9 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 90%;
     margin: auto auto auto auto;
+    text-align: center;
 }
 
 .h1 {
@@ -784,16 +787,35 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #914104;
+}
+
+.bgc-atomic-tangerine a{
+    color: white;
 }
 
 .tc-white {
-    color: #F3976C;
+    color: #914104;
     font-size: 1.2em;
 }
 
+.color{
+    color: yellow;
+}
+
+.contact{
+    color: #914104;
+}
+.colore{
+    color: red;
+}
+
+.banniere{
+    color: yellow;
+}
+
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #914104;
     color: #FFFFFF;
 }
 
