@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
 	<script defer src="./js/jquery-2.1.0.min.js"></script>
@@ -44,8 +44,6 @@
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a title="Accueil" href="index.html">Accueil</a>
-					</li>
-					<li>
 					</li>
 					<li>
 						<a title="Cliquer pour accéder à la page de contact" href="la-chouette-agence-web-design-lyon-contact.html">Contact</a>
@@ -84,35 +82,33 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1">
+					<div class="form-group">
 						<label for="name">
 							Nom
-						</label>
-						<input id="name" class="form-control" required />
+						</label><br>
+						<input type="text" id="name" name="name" class="form-control" placeholder="Jean Bernard" required />
 					</div>
 					<div class="form-group">
 						<label for="email">
 							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+						</label><br>
+						<input type="email" id="email" name="email" class="form-control" placeholder="jean-bernard@gmail.com" required />
 					</div>
 					<div class="form-group">
 						<label for="raison">
 							Comment nous avez-vous connu ?
-						</label>
-						<input id="raison" class="form-control" type="email" required />
+						</label><br>
+						<input type="text" id="raison" name="raison" class="form-control" placeholder="Résaux sociaux, Journaux Internet, Bouche à Oreille..." required />
 					</div>
 					<div class="form-group">
 						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" name="message" class="form-control" rows="4" cols="50" placeholder="Parlez-nous de votre projet en quelques lignes" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine btn2" type="submit">
 						Envoyer
 					</button>
 				</form>
-			</div>
-			<div class="col-sm-6">
 				<p>
 					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>

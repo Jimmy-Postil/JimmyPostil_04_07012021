@@ -1435,7 +1435,6 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
     max-width: 100%;
     height: auto
 }
@@ -2010,9 +2009,16 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
+.row-partner{
+    display: flex;
+}
+
+@media all and (max-width: 680px){
+    .row-partner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .col-lg-1,
@@ -2322,7 +2328,7 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%
+        width: 100%;
     }
     .col-sm-5 {
         width: 41.66666667%
@@ -3115,6 +3121,7 @@ input[type=range] {
     width: 100%
 }
 
+
 select[multiple],
 select[size] {
     height: auto
@@ -3135,6 +3142,7 @@ output {
     line-height: 1.42857143;
     color: #555
 }
+
 
 .form-control {
     display: block;
@@ -3224,9 +3232,6 @@ input[type=search] {
     }
 }
 
-.form-group {
-    margin-bottom: 15px
-}
 
 .checkbox,
 .radio {
@@ -3305,6 +3310,7 @@ fieldset[disabled] .radio label {
     padding-bottom: 7px;
     margin-bottom: 0
 }
+
 
 .form-control-static.input-lg,
 .form-control-static.input-sm {
