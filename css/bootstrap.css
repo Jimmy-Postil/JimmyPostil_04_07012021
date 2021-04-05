@@ -1984,21 +1984,21 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width:768px) {
+@media all and (min-width:768px) {
     .container {
-        width: 750px
+        width: 750px;
     }
 }
 
 @media (min-width:992px) {
     .container {
-        width: 970px
+        width: 970px;
     }
 }
 
 @media (min-width:1200px) {
     .container {
-        width: 1170px
+        width: 1170px;
     }
 }
 
@@ -2013,13 +2013,30 @@ pre code {
     display: flex;
 }
 
-@media all and (max-width: 680px){
-    .row-partner{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.row-partner{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.partner{
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+.partner-container{
+    margin-right: 40px;
+}
+
+.col-sm-4{
+    text-align: center;
+}
+
+.col-sm-4 li{
+    list-style-type: none;
+}
+
+
 
 .col-lg-1,
 .col-lg-10,
@@ -2328,7 +2345,7 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 100%;
+        width: 50%;
     }
     .col-sm-5 {
         width: 41.66666667%
@@ -4379,7 +4396,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
@@ -5130,7 +5146,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px){
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -7688,10 +7704,9 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
