@@ -563,6 +563,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    left: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -587,6 +588,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
+    display: block;
 }
 
 .lightbox-caption {
